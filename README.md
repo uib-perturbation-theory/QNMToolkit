@@ -1,9 +1,13 @@
 # Shaping black hole resonances
 
-This repository contains a collection of codes and scripts used for data analysis and analytical derivations associated with the research article:
+This repository contains a collection of codes and scripts used for data analysis and analytical derivations associated with the following articles:
 
 > **A. Svyatkovskyy Kholyavka, J. A. León Vega, X. Jiménez Forteza & S. Datta (2026)**  
-> *“Shaping black hole resonances I. Excitation features from localized perturbations”*  
+> *“Shaping black hole resonances I. Black hole ringdown as a spectral filtering process”*  
+> [arXiv:gr-qc/2604.XXXXX](https://arxiv.org/abs/gr-qc/2604.XXXXX)
+
+> **A. Svyatkovskyy Kholyavka, J. A. León Vega, X. Jiménez Forteza & S. Datta (2026)**  
+> *“Shaping black hole resonances II. Structure and optimization of quasinormal mode excitation”*  
 > [arXiv:gr-qc/2604.XXXXX](https://arxiv.org/abs/gr-qc/2604.XXXXX)
 
 ## Repository Structure
