@@ -42,8 +42,9 @@ If you use this repository in your research, please cite the corresponding paper
   primaryClass  = {gr-qc},
   month         = {4}
 }
-
-@article{Svyatkovskyy2026a,
+```
+```bibtex
+@article{Svyatkovskyy2026b,
   author        = {Svyatkovskyy Kholyavka, A. and León Vega, J. A. and Jiménez Forteza, X. and Datta, S.},
   title         = {Shaping black hole resonances II. Structure and optimization of quasinormal mode excitation},
   year          = {2026},
@@ -52,3 +53,4 @@ If you use this repository in your research, please cite the corresponding paper
   primaryClass  = {gr-qc},
   month         = {4}
 }
+```
