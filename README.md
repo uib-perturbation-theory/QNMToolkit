@@ -30,12 +30,22 @@ The repository is organized as follows:
 
 ## Citation
 
-If you use this repository in your research, please cite the corresponding paper:
+If you use this repository in your research, please cite the corresponding papers:
 
 ```bibtex
-@article{Svyatkovskyy2026,
+@article{Svyatkovskyy2026a,
   author        = {Svyatkovskyy Kholyavka, A. and León Vega, J. A. and Jiménez Forteza, X. and Datta, S.},
-  title         = {Shaping black hole resonances I. Excitation features from localized perturbations},
+  title         = {Shaping black hole resonances I. Black hole ringdown as a spectral filtering process},
+  year          = {2026},
+  eprint        = {2604.XXXXX},
+  archivePrefix = {arXiv},
+  primaryClass  = {gr-qc},
+  month         = {4}
+}
+
+@article{Svyatkovskyy2026a,
+  author        = {Svyatkovskyy Kholyavka, A. and León Vega, J. A. and Jiménez Forteza, X. and Datta, S.},
+  title         = {Shaping black hole resonances II. Structure and optimization of quasinormal mode excitation},
   year          = {2026},
   eprint        = {2604.XXXXX},
   archivePrefix = {arXiv},
