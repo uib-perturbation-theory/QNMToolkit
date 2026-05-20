@@ -14,11 +14,11 @@ The repository is organized as follows:
   Contains reproducible Jupyter notebooks illustrating the main ideas and numerical experiments:
   - **`initial-data.ipynb`**  
   Construction and analysis of localized Gaussian perturbations, including their spectral content and dependence on the parameters $(\sigma, \nu)$.
-- **`generic-waveforms.ipynb`**  
+  - **`generic-waveforms.ipynb`**  
   Time-domain numerical evolution of the Regge–Wheeler equation.
-- **`theoretical-qnecs.ipynb`**  
+  - **`theoretical-qnecs.ipynb`**  
   QNECs both in the asymptotic approximation and using the Leaver wavefunction, for the fundamental mode and higher overtones.
-- **`numerical-qnecs.ipynb`**  
+  - **`numerical-qnecs.ipynb`**  
   Numerical procedure used to extract QNECs directly from time-domain waveforms.
 
 - **`rw_solver/`**  
