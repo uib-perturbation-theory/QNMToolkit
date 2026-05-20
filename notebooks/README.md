@@ -12,7 +12,4 @@ This folder includes the following illustrative notebooks:
 - **`numerical-qnecs.ipynb`**  
   Presentation of the numerical procedure used to extract QNECs directly from time-domain waveforms.
 
-- **`waveform-reconstruction.ipynb`**  
-  Reconstruction of waveforms using the QNECs derived in `theoretical-qnecs.ipynb`, illustrating the contribution of individual modes to the full signal.
-
-These notebooks form a complete pipeline: initial data → time evolution → QNEC extraction → waveform reconstruction.
+These notebooks form a complete pipeline: initial data → time evolution → QNEC extraction.
