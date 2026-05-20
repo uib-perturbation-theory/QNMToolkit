@@ -1,10 +1,10 @@
 # Shaping black hole resonances
 
-This repository contains a collection of codes and scripts used for data analysis and analytical derivations associated with the following articles:
+This repository contains a collection of codes and scripts used for data analysis and analytical derivations associated with the research article:
 
 > **A. Svyatkovskyy Kholyavka, J. A. León Vega, X. Jiménez Forteza & S. Datta (2026)**  
 > *“Shaping black hole resonances I. Black hole ringdown as a spectral filtering process”*  
-> [arXiv:gr-qc/2604.XXXXX](https://arxiv.org/abs/gr-qc/2604.XXXXX)
+> [arXiv:gr-qc/2605.XXXXX](https://arxiv.org/abs/gr-qc/2605.XXXXX)
 
 ## Repository Structure
 
@@ -16,7 +16,6 @@ The repository is organized as follows:
   - `generic-waveforms.ipynb`: Time-domain evolution of the Regge–Wheeler equation and extraction of waveforms at a fixed observer location.
   - `theoretical-qnecs.ipynb`: Computation of quasi-normal excitation coefficients (QNECs) using both asymptotic approximations and the Leaver wavefunction, for the fundamental mode and higher overtones.
   - `numerical-qnecs.ipynb`: Extraction of QNECs directly from numerical waveforms.
-  - `waveform-reconstruction.ipynb`: Reconstruction of waveforms using the computed QNECs, illustrating the contribution of individual modes.
 
 - **`rw_solver/`**  
   Python implementation of a time-domain solver for the Regge–Wheeler equation.  This module provides the numerical infrastructure used to evolve perturbations, including:
@@ -26,10 +25,10 @@ The repository is organized as follows:
 
 ## Citation
 
-If you use this repository in your research, please cite the corresponding papers:
+If you use this repository in your research, please cite the corresponding paper:
 
 ```bibtex
-@article{Svyatkovskyy2026a,
+@article{Svyatkovskyy2026,
   author        = {Svyatkovskyy Kholyavka, A. and León Vega, J. A. and Jiménez Forteza, X. and Datta, S.},
   title         = {Shaping black hole resonances I. Black hole ringdown as a spectral filtering process},
   year          = {2026},
@@ -38,4 +37,3 @@ If you use this repository in your research, please cite the corresponding paper
   primaryClass  = {gr-qc},
   month         = {5}
 }
-```
