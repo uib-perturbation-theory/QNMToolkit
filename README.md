@@ -6,7 +6,7 @@ QNMToolkit is a numerical algorithm for studying the quasi-normal excitation coe
 > *“Shaping black hole resonances I. Black hole ringdown as a spectral filtering process”*  
 > [arXiv:gr-qc/2605.XXXXX](https://arxiv.org/abs/gr-qc/2605.XXXXX)
 
-## Repository Structure
+## Repository structure
 
 The repository is organized as follows:
 
@@ -23,6 +23,10 @@ The notebook requires standard Python scientific libraries:
 ```bash
 pip install numpy scipy matplotlib jupyter
 ```
+
+## Questions and contributions
+
+For questions, suggestions, or contributions, feel free to contact the authors or open an issue in the repository.
 
 ## Citation
 
