@@ -122,15 +122,12 @@ The left ramp suppresses the potential close to the horizon:
 ```math
 W_L(r)=
 \begin{cases}
-0,
-& r \leq r_{\min}, \\[4pt]
-\sin^2\left[
-\dfrac{\pi}{2}
-\dfrac{r-r_{\min}}{r_{\rm ramp}-r_{\min}}
-\right],
-& r_{\min}<r<r_{\rm ramp}, \\[8pt]
-1,
-& r \geq r_{\rm ramp}.
+0, & r \le r_{\min}, \\[4pt]
+\sin^2\left(
+\frac{\pi}{2}
+\frac{r-r_{\min}}{r_{\rm ramp}-r_{\min}}
+\right), & r_{\min}<r<r_{\rm ramp}, \\[8pt]
+1, & r \ge r_{\rm ramp}.
 \end{cases}
 ```
 
@@ -141,15 +138,12 @@ The right cutoff suppresses the potential near the outer boundary:
 ```math
 W_R(r)=
 \begin{cases}
-1,
-& r \leq r_{\rm start}, \\[4pt]
-\cos^2\left[
-\dfrac{\pi}{2}
-\dfrac{r-r_{\rm start}}{r_{\rm cut}-r_{\rm start}}
-\right],
-& r_{\rm start}<r<r_{\rm cut}, \\[8pt]
-0,
-& r \geq r_{\rm cut}.
+1, & r \le r_{\rm start}, \\[4pt]
+\cos^2\left(
+\frac{\pi}{2}
+\frac{r-r_{\rm start}}{r_{\rm cut}-r_{\rm start}}
+\right), & r_{\rm start}<r<r_{\rm cut}, \\[8pt]
+0, & r \ge r_{\rm cut}.
 \end{cases}
 ```
 
