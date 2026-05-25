@@ -121,7 +121,7 @@ The left ramp suppresses the potential close to the horizon.
 
 | Region | Value of \(W_L(r)\) |
 |---|---|
-| \(r \le r_{\min}\) | \(0\) |
+| ```mathr \le r_{\min}\)``` | \(0\) |
 | \(r_{\min} < r < r_{\rm ramp}\) | \(\sin^2\left[\dfrac{\pi}{2}\dfrac{r-r_{\min}}{r_{\rm ramp}-r_{\min}}\right]\) |
 | \(r \ge r_{\rm ramp}\) | \(1\) |
 
