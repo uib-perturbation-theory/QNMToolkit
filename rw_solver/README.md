@@ -119,7 +119,7 @@ W(r) = W_L(r)W_R(r).
 
 The left ramp suppresses the potential close to the horizon:
 
-```math
+$
 W_L(r)=
 \begin{cases}
 0, & r \le r_{\min}, \\[4pt]
@@ -129,13 +129,13 @@ W_L(r)=
 \right), & r_{\min}<r<r_{\rm ramp}, \\[8pt]
 1, & r \ge r_{\rm ramp}.
 \end{cases}
-```
+$
 
 ### Right cutoff
 
 The right cutoff suppresses the potential near the outer boundary:
 
-```math
+$
 W_R(r)=
 \begin{cases}
 1, & r \le r_{\rm start}, \\[4pt]
@@ -145,7 +145,7 @@ W_R(r)=
 \right), & r_{\rm start}<r<r_{\rm cut}, \\[8pt]
 0, & r \ge r_{\rm cut}.
 \end{cases}
-```
+$
 
 Default parameters:
 
