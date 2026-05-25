@@ -36,13 +36,13 @@ which maps the exterior region $r \in (2M, \infty)$ to $r_* \in (-\infty, +\inft
 
 ### Inverting the Tortoise Coordinate
 
-Given $r_*$, the physical radius $r$ is recovered via the **Lambert W function** $W_0$:
+Given $r_{*}$, the physical radius $r$ is recovered via the **Lambert W function** $W_{0}$:
 
 $$
-r(r_{*}) = 2M[1 + W_0(\exp\left(\frac{r_*}{2M} - 1))]
+r(r_*) = 2M\left[1 + W_0\left(\exp\left(\frac{r_{*}}{2M} - 1\right)\right)\right]
 $$
 
-Implemented in `r_of_s(s, M)`, using `scipy.special.lambertw` when available, or `mpmath.lambertw` as fallback.
+Implemented in r_of_s(s, M), using scipy.special.lambertw when available, or mpmath.lambertw as fallback.
 
 ## Potential
 
@@ -74,8 +74,8 @@ $$
 
 $$
 W_L(r) = \begin{cases}
-0 & r \leq r_{\min} \\
-\sin^2\left(\frac{\pi}{2}\,\frac{r - r_{\min}}{r_{\rm ramp} - r_{\min}}\right) & r_{\min} < r < r_{\rm ramp} \\
+0 & r \leq r_{\min} \\[4pt]
+\sin^2\!\left(\dfrac{\pi}{2}\,\dfrac{r - r_{\min}}{r_{\rm ramp} - r_{\min}}\right) & r_{\min} < r < r_{\rm ramp} \\[4pt]
 1 & r \geq r_{\rm ramp}
 \end{cases}
 $$
@@ -84,8 +84,8 @@ $$
 
 $$
 W_R(r) = \begin{cases}
-1 & r \leq r_{\rm start} \\
-\cos^2\left(\frac{\pi}{2}\,\frac{r - r_{\rm start}}{r_{\rm cut} - r_{\rm start}}\right) & r_{\rm start} < r < r_{\rm cut} \\
+1 & r \leq r_{\rm start} \\[4pt]
+\cos^2\!\left(\dfrac{\pi}{2}\,\dfrac{r - r_{\rm start}}{r_{\rm cut} - r_{\rm start}}\right) & r_{\rm start} < r < r_{\rm cut} \\[4pt]
 0 & r \geq r_{\rm cut}
 \end{cases}
 $$
@@ -143,7 +143,7 @@ Default: $\lambda_{\rm CFL} = 0.1$.
 The default initial wavepacket is a **modulated Gaussian**:
 
 $$
-\Psi(s,\,0) = A\,\exp\left(-\frac{(s-s_0)^2}{2\sigma^2}\right)\cos\left(\omega_0(s-s_0)\right)
+\Psi(s,\,0) = A\,\exp\!\left(-\frac{(s-s_0)^2}{2\sigma^2}\right)\cos\!\left(\omega_0(s-s_0)\right)
 $$
 
 where $A$ is the amplitude, $s_0$ the centre, $\sigma$ the width, and $\omega_0$ the carrier frequency.
@@ -155,7 +155,7 @@ where $A$ is the amplitude, $s_0$ the centre, $\sigma$ the width, and $\omega_0$
 The waveform at an arbitrary observer location $r_*^{\rm obs}$ is extracted using 4-point Lagrange interpolation over the nearest grid nodes $\{s_{i_j}\}_{j=0}^{3}$:
 
 $$
-\Psi\left(r_*^{\rm obs},\,t\right) = \sum_{j=0}^{3} \Psi(s_{i_j},\,t)\prod_{\substack{k=0\\k\neq j}}^{3} \frac{r_*^{\rm obs} - s_{i_k}}{s_{i_j} - s_{i_k}}
+\Psi\!\left(r_*^{\rm obs},\,t\right) = \sum_{j=0}^{3} \Psi(s_{i_j},\,t)\prod_{\substack{k=0\\k\neq j}}^{3} \frac{r_*^{\rm obs} - s_{i_k}}{s_{i_j} - s_{i_k}}
 $$
 
 ---
@@ -258,7 +258,7 @@ obs = extract_observer_4th(U, s, target=100.0)
 plt.plot(T, obs)
 plt.xlabel(r"$t\;[M]$")
 plt.ylabel(r"$\Psi$")
-plt.title(r"Quasi-normal ringdown — Schwarzschild BH ($\ell=2$)")
+plt.title("Quasi-normal ringdown — Schwarzschild BH ($\ell=2$)")
 plt.tight_layout()
 plt.show()
 ```
