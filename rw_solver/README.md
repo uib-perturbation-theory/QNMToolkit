@@ -39,7 +39,7 @@ which maps the exterior region $r \in (2M, \infty)$ to $r_* \in (-\infty, +\inft
 Given $r_*$, the physical radius $r$ is recovered via the **Lambert W function** $W_0$:
 
 $$
-r(r_*) = 2M\left[1 + W_0\left(\exp\left(\frac{r_*}{2M} - 1\right)\right)\right]
+r(r_{*}) = 2M[1 + W_0(\exp\left(\frac{r_*}{2M} - 1))]
 $$
 
 Implemented in `r_of_s(s, M)`, using `scipy.special.lambertw` when available, or `mpmath.lambertw` as fallback.
