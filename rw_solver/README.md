@@ -152,13 +152,15 @@ where $A$ is the amplitude, $s_0$ the centre, $\sigma$ the width, and $\omega_0$
 
 ## Observer Extraction — 4th-Order Lagrange Interpolation
 
-The waveform at an arbitrary observer location $r_*^{\rm obs}$ is extracted using 4-point Lagrange interpolation over the nearest grid nodes $\{s_{i_j}\}_{j=0}^{3}$:
+The waveform at an arbitrary observer location \(r_*^{\rm obs}\) is extracted using 4-point Lagrange interpolation over the nearest grid nodes \(s_{i_0},s_{i_1},s_{i_2},s_{i_3}\).
 
-$$
-\Psi\!\left(r_*^{\rm obs},\,t\right) = \sum_{j=0}^{3} \Psi(s_{i_j},\,t)\prod_{\substack{k=0\\k\neq j}}^{3} \frac{r_*^{\rm obs} - s_{i_k}}{s_{i_j} - s_{i_k}}
-$$
-
----
+```math
+\Psi(r_*^{\rm obs},t)
+=
+\sum_{j=0}^{3}
+\Psi(s_{i_j},t)
+L_j(r_*^{\rm obs})
+```
 
 ## API Reference
 
