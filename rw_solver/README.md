@@ -117,35 +117,23 @@ W(r) = W_L(r)W_R(r).
 
 ### Left ramp
 
-The left ramp suppresses the potential close to the horizon:
+The left ramp suppresses the potential close to the horizon.
 
-$
-W_L(r)=
-\begin{cases}
-0, & r \le r_{\min}, \\[4pt]
-\sin^2\left(
-\frac{\pi}{2}
-\frac{r-r_{\min}}{r_{\rm ramp}-r_{\min}}
-\right), & r_{\min}<r<r_{\rm ramp}, \\[8pt]
-1, & r \ge r_{\rm ramp}.
-\end{cases}
-$
+| Region | Value of \(W_L(r)\) |
+|---|---|
+| \(r \le r_{\min}\) | \(0\) |
+| \(r_{\min} < r < r_{\rm ramp}\) | \(\sin^2\left[\dfrac{\pi}{2}\dfrac{r-r_{\min}}{r_{\rm ramp}-r_{\min}}\right]\) |
+| \(r \ge r_{\rm ramp}\) | \(1\) |
 
 ### Right cutoff
 
-The right cutoff suppresses the potential near the outer boundary:
+The right cutoff suppresses the potential near the outer boundary.
 
-$
-W_R(r)=
-\begin{cases}
-1, & r \le r_{\rm start}, \\[4pt]
-\cos^2\left(
-\frac{\pi}{2}
-\frac{r-r_{\rm start}}{r_{\rm cut}-r_{\rm start}}
-\right), & r_{\rm start}<r<r_{\rm cut}, \\[8pt]
-0, & r \ge r_{\rm cut}.
-\end{cases}
-$
+| Region | Value of \(W_R(r)\) |
+|---|---|
+| \(r \le r_{\rm start}\) | \(1\) |
+| \(r_{\rm start} < r < r_{\rm cut}\) | \(\cos^2\left[\dfrac{\pi}{2}\dfrac{r-r_{\rm start}}{r_{\rm cut}-r_{\rm start}}\right]\) |
+| \(r \ge r_{\rm cut}\) | \(0\) |
 
 Default parameters:
 
