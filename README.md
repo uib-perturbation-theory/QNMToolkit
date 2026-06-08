@@ -4,7 +4,7 @@ QNMToolkit is a numerical algorithm for studying the quasi-normal excitation coe
 
 > **A. Svyatkovskyy Kholyavka, J. A. León Vega, X. Jiménez Forteza & S. Datta (2026)**  
 > *“Shaping black hole resonances I. Black hole ringdown as a spectral filtering process”*  
-> [arXiv:gr-qc/2605.XXXXX](https://arxiv.org/abs/gr-qc/2605.24704)
+> [arXiv:gr-qc/2605.24704](https://arxiv.org/abs/gr-qc/2605.24704)
 
 ## Repository structure
 
